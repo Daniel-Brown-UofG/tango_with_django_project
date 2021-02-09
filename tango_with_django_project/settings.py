@@ -136,3 +136,6 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
+
+# login url for redirection after attempting to view restricted content
+LOGIN_URL = 'rango:login'
